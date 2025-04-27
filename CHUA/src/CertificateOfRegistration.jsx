@@ -45,7 +45,7 @@ const CertificateOfRegistration = () => {
             culturalFee: firstRecord.cultural_fee || "",
             developmentFee: firstRecord.development_fee || "",
             guidanceFee: firstRecord.guidance_fee || "",
-            libraryFee: firstRecord.libraryfee || "",
+            libraryFee: firstRecord.library_fee || "",
             medicalDentalFee: firstRecord.medical_dental_fee || "",
             registrationFee: firstRecord.registration_fee || "",
             computerFee: firstRecord.computer_fee || "",
