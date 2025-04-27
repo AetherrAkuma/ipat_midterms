@@ -1,0 +1,4 @@
+IPAT LAB MIDTERMS
+
+Chua, Reymart M.
+BSINFOTECH 2A
