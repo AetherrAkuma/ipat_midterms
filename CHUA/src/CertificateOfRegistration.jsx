@@ -5,6 +5,7 @@ import FreeTuitionImage from "./assets/FREETUITION.png";
 import EaristLogo from "./assets/EaristLogo.png";
 import corImage from "./assets/cor_image.png";
 import corSig from "./assets/cor_signature.jpg";
+import corQr from "./assets/cor_qr.png";
 
 const CertificateOfRegistration = () => {
   const [uploadedSignature, setUploadedSignature] = useState(null);
@@ -2834,8 +2835,19 @@ const CertificateOfRegistration = () => {
                     style={{
                       marginTop: "10px",
                       width: "200px",
-                      height: "150px",
-                      marginLeft: "150px",
+                      height: "170px",
+                      marginLeft: "60px",
+                    }}
+                  />
+                  <img
+                    src={corQr}
+                    alt="Student's QR Code"
+                    style={{
+                      marginTop: "10px",
+                      width: "120px",
+                      height: "120px",
+                      marginTop: "-120px",
+                      marginLeft: "645px",
                     }}
                   />
                 </td>
